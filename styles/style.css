@@ -74,10 +74,7 @@ ol {
 
 .search-form__fieldset {
   flex-grow: 1;
-<<<<<<< HEAD
-=======
   border: none;
->>>>>>> be32282 (feat(layer one): done step one with h-w)
 }
 
 .content__details {
