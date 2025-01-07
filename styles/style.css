@@ -116,7 +116,7 @@ ol {
   display: grid;
   grid-template-areas: "result content__details"; 
   align-items: end; 
-  gap: 30px;  
+  gap: 31px;  
 }
 
 .result {
@@ -143,7 +143,7 @@ ol {
   grid-area: content__details;
   display: flex; 
   flex-direction: column;
-  gap: 19px; 
+  gap: 26px; 
   width: 100%;
   padding-bottom: 288px;
 }
@@ -168,9 +168,8 @@ ol {
 
 .content__video-card {  
   display: flex;
-  justify-content: space-between;
-  justify-items: start;
-  gap: 20px;
+  flex-direction: row;
+  justify-content: end;
 }
 
 .content__video-card-thumbnail {
@@ -183,7 +182,6 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  max-width: 196px;
   flex-grow: 1;
 }
 
@@ -341,8 +339,7 @@ ol {
 }
 
 .content__video-card-description-container {
-  max-width: 49%;
-  line-clamp: 3;
+  flex-grow: 1;
 }
 
 .content__video-card-description {
