@@ -60,7 +60,6 @@ ul, ol {
   inline-size: 1px;
   block-size: 1px;
   overflow: hidden;
-  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
 }
@@ -111,6 +110,11 @@ ul, ol {
   min-height: var(--button-height);
 }
 
+.button:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 .search-form__submit-button {
   min-width: var(--button-width);
   margin-top: var(--padding-large);
@@ -159,6 +163,7 @@ ul, ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -355,4 +360,3 @@ ul, ol {
   object-position: center;
   object-fit: cover;
 }
-
