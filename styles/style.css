@@ -22,7 +22,7 @@
   --font-size-video-card-title: 30px;
   
   /* Линии */
-  --line-height-main: 21.6px;
+  --line-height-main: 24.6px;
   --line-height-title: 70.5px;
   
   /* Отступы */
@@ -122,7 +122,8 @@ ul, ol {
 
 .more-button {
   min-width: 390px;
-  margin: var(--padding-large) 1px 1px;
+  height: 32px;
+  margin: 14px 0px 4px 3px;
 }
 
 .search-form__submit-button:hover,
@@ -219,7 +220,7 @@ ul, ol {
   border: none;
   border-block-start: 1px solid var(--color-white);
   border-block-end: 1px solid var(--color-white);
-  width: 224px;
+  width: 225px;
   padding-bottom: 2px;
 }
 
